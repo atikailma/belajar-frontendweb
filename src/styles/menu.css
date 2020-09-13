@@ -1,0 +1,37 @@
+.showcase .showcase-text {
+    padding: 3rem;
+  }
+  
+  .showcase .showcase-img {
+   
+    background-size: cover;
+  }
+  
+  @media (min-width: 768px) {
+    .showcase .showcase-text {
+      padding: 7rem;
+    }
+  }
+  .showcase .gambar{
+    width: 500px;
+  }
+  @media (max-width: 518px) {
+    .showcase .gambar{
+      width: 400px;
+    }
+  }
+  @media (max-width: 425px) {
+    .showcase .gambar{
+      width: 350px;
+    }
+  }
+  @media (max-width: 364px) {
+    .showcase .gambar{
+      width: 270px;
+    }
+  }
+  @media (max-width: 286px) {
+    .showcase .gambar{
+      width: 230px;
+    }
+  }
